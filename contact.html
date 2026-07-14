@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact details</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
         body{
             padding-top: 90px;
@@ -13,25 +14,119 @@
 </head>
 <body>
 
-    <nav id="navbar">
+   <nav id="navbar">
         <a href="index.html">Home</a>
         <a href="projects.html">Portfolio</a>
         <a href="experiences.html">Experiences</a>
+        <a href="cert.html">Certifications</a>
         <a href="feedback.html">Feedback</a>
     </nav>
 
-    <h1 style="text-align: center; text-decoration-line: underline;">Contact Here</h1>
-    <br>
-    <h2 style="text-align: center;">Developer Name - Saksham Jain</h2>
-    <h2 style="text-align: center;">Gmail -          sakshamjain.cs2004@gmail.com</h2>
-    <h2 style="text-align: center;">Contact Number - 9079477202</h2>
-    <h2 style="text-align: center;">Instagram -      sakshamjain3473</h2>
-    <h2 style="text-align: center;">College -        JECRC</h2>
-    <a href="https://www.linkedin.com/in/sakshamjain011/" style="display: block; text-align: center; text-decoration: solid; font-weight :1000; color: black; font-size: 23px;">>>>> LinkedIn - Saksham Jain</a>
-    <br>
-    <a href="https://github.com/sakshamjain011" style="display: block; text-align: center; text-decoration: solid; font-weight :1000; color: black; font-size: 23px;">>>>> GitHub -         sakshamjain011</a>
-    <br><br><br>
-    <a href="index.html" style="display: block; text-align: center; text-decoration: solid; font-weight :1000; color: black; text-decoration: underline; font-size: 23px;">>>>>>Back to Home Page<<<<< </a>
+<section class="contact">
 
+<div class="contact-form">
+
+    <h2><i class="fa-regular fa-comment"></i>Send Message</h2>
+
+    <p class="form-text">
+        Fill out the form below and I'll get back to you as soon as possible.
+    </p>
+
+    <form>
+
+        <div class="row">
+
+            <div class="input-box">
+                <label>Name *</label>
+                <input type="text" placeholder="Your full name">
+            </div>
+
+            <div class="input-box">
+                <label>Email *</label>
+                <input type="email" placeholder="your.email@example.com">
+            </div>
+
+        </div>
+
+        <div class="input-box">
+            <label>Subject *</label>
+            <input type="text" placeholder="What's this about?">
+        </div>
+
+        <div class="input-box">
+            <label>Message *</label>
+            <textarea placeholder="Tell me about your project or idea..."></textarea>
+        </div>
+
+        <button type="submit">
+            <i class="fa-regular fa-paper-plane"></i>
+            Send Message
+        </button>
+
+    </form>
+
+</div>
+
+</section>
+
+
+<section class="contact-info-section">
+
+    <h2 class="contact-heading">Contact Information</h2>
+
+    <div class="contact-cards">
+
+        <!-- Email -->
+        <div class="info-card">
+
+            <div class="icon-box">
+                <i class="fa-regular fa-envelope"></i>
+            </div>
+
+            <div class="info-text">
+                <h3>Email</h3>
+                <h4>sakshamjain.cs2004@gmail.com</h4>
+                <p>Send me an email anytime</p>
+            </div>
+
+        </div>
+
+        <!-- Phone -->
+        <div class="info-card">
+
+            <div class="icon-box">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+
+            <div class="info-text">
+                <h3>Phone</h3>
+                <h4>+91 9079477202</h4>
+                <p>Call me for urgent matters</p>
+            </div>
+
+        </div>
+
+        <!-- Location -->
+        <div class="info-card">
+
+            <div class="icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div class="info-text">
+                <h3>Location</h3>
+                <h4>Jaipur, Rajasthan</h4>
+                <p>Available for remote work</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</body>
+</html>
+   
 </body>
 </html>

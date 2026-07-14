@@ -29,7 +29,7 @@ body {
     display:flex;
     align-items:center;
     padding:0;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 
 .hero-section{
@@ -133,53 +133,102 @@ body {
 }
 
 .social-links a{
-
-    text-decoration:none;
-
+    text-decoration:solid;
+    font-size:20px;
     color:#111;
-
     margin-right:30px;
-
     font-weight:600;
 }
 
 .hero-right{
-
     width:40%;
     display:flex;
     justify-content:center;
 }
 
 .hero-right img{
-
     width:400px;
     height:400px;
-
     object-fit:cover;
-
     border-radius:50%;
-
-    border:8px solid white;
-
-    box-shadow:0 0 30px rgba(0,0,0,.15);
+    border:8px solid rgba(22, 1, 1, 0.384);
+    box-shadow:0 0 50px rgba(0,0,0,.15);
 }
+
+
+
+
+
+
+.footer{
+    width:100%;
+    padding:35px 20px;
+    background:transparent;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    border-top:1px solid rgba(0,0,0,0.08);
+}
+
+.copyright{
+    font-size:22px;
+    color:#374151;
+}
+
+.footer-info{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.info-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    color:#111827;
+}
+
+.info-item i{
+    color:#1f2937;
+    font-size:22px;
+}
+
+
+
+
+
+
+
 
 
 
 .education{
     width:80%;
     margin:40px auto;
+    margin-top: 70px;
+}
+
+.edu-heading{
+    margin-bottom:30px; 
+    text-align: center;
+    font-size: 40px;
 }
 
 .edu-card{
     width:90%;
     margin:auto;
+    margin-bottom: 15px;
 
     display:flex;
     justify-content:space-between;
     align-items:flex-start;
 
-    background:#fff;
+    background:#ffffff6a;
     border:1px solid #d9d9d9;
     border-left:5px solid #22c55e;
 
@@ -195,15 +244,16 @@ body {
 }
 
 .edu-left h2{
-    font-size:28px;
+    font-size:25px;
     margin-bottom:8px;
     color:#0b1d39;
 }
 
 .college{
-    font-size:20px;
-    color:#64748b;
+    font-size:22px;
+    color:#000000;
     margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .edu-left ul{
@@ -566,4 +616,191 @@ h3 i{
 
 .cert-card strong{
     color:#0d6efd;
+}
+
+
+
+
+
+
+
+
+
+
+.contact-form{
+    width:1100px;
+    margin:40px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    border:1px solid #dbe4ee;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.contact-form h2{
+    font-size:28px;
+    color:#0b1d39;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+}
+
+.contact-form h2 i{
+    color:#2563eb;
+}
+
+.form-text{
+    font-size:18px;
+    color:#64748b;
+    margin-bottom:30px;
+}
+
+.row{
+    display:flex;
+    gap:20px;
+}
+
+.input-box{
+    width:100%;
+    margin-bottom:22px;
+}
+
+.input-box label{
+    display:block;
+    margin-bottom:8px;
+    font-size:18px;
+    font-weight:600;
+}
+
+.input-box input,
+.input-box textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #d6dce5;
+    border-radius:10px;
+    font-size:17px;
+    outline:none;
+}
+
+.input-box input:focus,
+.input-box textarea:focus{
+    border-color:#2563eb;
+}
+
+.input-box textarea{
+    height:100px;
+    resize:none;
+}
+
+button{
+    width:20%;
+    padding:10px;
+    background:#111827;
+    color:#fff;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    font-weight:400;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#00000055;
+}
+
+button i{
+    margin-right:10px;
+}
+
+
+
+
+.contact-info-section{
+
+    width:90%;
+    margin:50px auto;
+}
+
+.contact-heading{
+
+    font-size:40px;
+    color:#0b1d39;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+.contact-cards{
+
+    display:flex;
+    justify-content:space-between;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.info-card{
+
+    flex:1;
+    min-width:300px;
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    background:#fff;
+    border:1px solid #dbe4ee;
+    border-radius:15px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+    margin-bottom: 40px;
+}
+
+.info-card:hover{
+
+    transform:translateY(-5px);
+}
+
+.icon-box{
+
+    width:65px;
+    height:65px;
+
+    background:#dbeafe;
+
+    border-radius:15px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon-box i{
+
+    font-size:28px;
+    color:#2563eb;
+}
+
+.info-text h3{
+
+    font-size:28px;
+    margin-bottom:8px;
+    color:#111827;
+}
+
+.info-text h4{
+
+    font-size:20px;
+    color:#2563eb;
+    margin-bottom:8px;
+}
+
+.info-text p{
+
+    font-size:16px;
+    color:#64748b;
 }
