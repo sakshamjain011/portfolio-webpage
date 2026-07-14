@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Page</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+
+<body>
+
+    <nav id="navbar">
+        <a href="#home">Home</a>
+        <a href="projects.html">Portfolio</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="cert.html">Certifications</a>
+        <a href="feedback.html">Feedback</a>
+        
+    </nav>
+
+
+
+<div class="content" id="home"> 
+
+
+    <section class="hero-section">
+
+        <!-- Left Side -->
+        <div class="hero-left">
+
+            <h1>Hi, I'm</h1>
+
+            <h2>Saksham Jain</h2>
+
+            <p class="hero-text">
+                🚀 Computer Science Student |
+                Web Developer |
+                Salesforce Enthusiast |
+                Problem Solver
+            </p>
+
+            <p class="hero-desc">
+                I'm a final year Computer Science student passionate about
+                Web Development, Salesforce, Java and Problem Solving.
+                I love building responsive websites and real-world projects.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="projects.html" class="btn-primary">
+                    View Projects
+                </a>
+
+                <a href="contact.html" class="btn-secondary">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/sakshamjain011">GitHub</a>
+
+                <a href="https://www.linkedin.com/in/sakshamjain011/">LinkedIn</a>
+
+                <a href="https://leetcode.com/u/sakshamjain011/">LeetCode</a>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="hero-right">
+
+            <img src="sam.jpeg" alt="Saksham Jain">
+
+        </div>
+
+    </section>
+
+</div>
+
+
+
+<section class="education">
+
+    <h1 class="edu-heading">
+        <span></span>
+        Education
+    </h1>
+
+    <div class="edu-card">
+
+        <div class="edu-left">
+
+            <h3>Bachelor of Technology in Computer Science</h3>
+
+            <p class="college">
+                🎓 Jaipur Engineering College And Research Center
+            </p>
+
+            
+
+        </div>
+
+        <div class="edu-right">
+
+            <p>📅 2023 - 2027</p>
+
+            <p>📍 Jaipur</p>
+
+            <h3>GPA: <strong>9.24/10.0</strong></h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="highlights">
+
+    <h2 class="section-title"><i class="fa-solid fa-globe"></i>
+        What Drives Me
+    </h2>
+
+    <div class="highlight-container">
+
+        <div class="highlight-card">
+            <h3><i class="fa-solid fa-users"></i> Collaboration</h3>
+            <p>
+                Believing in the power of teamwork and knowledge sharing to achieve great results.
+            </p>
+        </div>
+
+        <div class="highlight-card">
+            <h3><i class="fa-solid fa-bullseye"></i> Quality Code</h3>
+            <p>
+                Writing clean, maintainable, and well-documented code that stands the test of time.
+            </p>
+        </div>
+
+        <div class="highlight-card">
+            <h3><i class="fa-solid fa-code"></i>Problem Solving</h3>
+            <p>
+                Strong foundation in DSA and logical thinking.
+            </p>
+        </div>
+
+        <div class="highlight-card">
+            <h3><i class="fa-solid fa-book-open"></i> Continuous Learning</h3>
+            <p>
+                Passionate about learning modern technologies.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<script>
+    window.addEventListener('scroll', function() {
+        const nav = document.getElementById('navbar');
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+</script>
+
+</body>
+</html>
